@@ -1,0 +1,9 @@
+[webservers]
+worker1
+worker2
+
+[all]
+worker1
+worker2
+localhost
+
