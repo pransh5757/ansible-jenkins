@@ -1,0 +1,13 @@
+---
+- name: Reboot and check ping for webservers group
+  hosts: webservers
+  gather_facts: false
+  tasks:
+  - name: Check ping in webservers group
+    ping:
+    
+- name: Second plays begin here
+  hosts: webservers
+  tasks:
+  - ping:
+...
